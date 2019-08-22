@@ -51,8 +51,82 @@ const bigFoot = {
     "shoeSize": "15",
     "currentLocation": "undetermined",
     "hairColor": "ashen-blonde",
-    "demeanor": "placid"
+    "demeanor": "placid",
+    "cleanliness": "reeks",
+    showerStrategy: function(){
+        console.log("I haven't showered in months")
+    }
+    
 }
 console.log(bigFoot.weight)
 console.log(bigFoot.hairColor)
 console.log(bigFoot.demeanor)
+bigFoot.showerStrategy();
+
+//Remember you don't have to have quotes around the keys
+
+//Setting Keys and Values other ways---
+//the following two ways will work as well, say you have a complete new bigFoot object with no information in there:
+
+bigFoot.shoeSize = 87;
+bigFoot["height"] = 10;
+
+//With objects, even after you are done, you can always throw more keys on there
+//remember, you reassign or override the value if you later assign another value to the same key
+
+
+//if we are in an object, we can reference the object itself with....this
+//THIS KEYWORD
+
+const bigFootUsingThis = {
+    "height": "10 feet",
+    "weight": "568 pounds",
+    "shoeSize": "15",
+    "currentLocation": "undetermined",
+    "hairColor": "ashen-blonde",
+    "demeanor": "placid",
+    "cleanliness": "reeks",
+    needShowerStrategy(){
+        console.log(`When you ask around, people say he ${this.cleanliness}`)
+        //here we are referencing the object itself (this taking the place of bigFootUsingThis)
+    }
+    
+}
+
+bigFootUsingThis.needShowerStrategy();
+
+//Start off with an empty object and add to it using dot or bracket notation
+const whatImLike = {}
+
+whatImLike.morning = "alert",
+whatImLike.midMorning ="productive",
+whatImLike["afternoon"]="useful",
+whatImLike["midAfternoon"]="considerate",
+whatImLike.lateAfternoon = "reflective",
+whatImLike["evening"]="settled",
+whatImLike.midevening="quiet",
+whatImLike["lateevening"]="restful",
+// needToStayAwakeStrategy(){
+//     console.log(`I can't stay awake without coffee, I'm already in ${this.lateevening} mode`)
+    //throwing an error beause the object doesn't exist inside the brackets yet. if the object doesn't exsit inside the brackets yet,
+    //you'l have to:
+
+whatImLike.needToStayAwakeStrategy= function(){
+        console.log(`I can't stay awake without coffee, I'm already in ${this.lateevening} mode`)
+}
+
+whatImLike.needToStayAwakeStrategy()
+
+//Difference between dot notation and bracket notation
+
+const computer = {};
+let monitor = "screen"
+//DOT NOTATION takes in names literally as strings
+computer.monitor = "64 inch"
+//BRACKET NOTATION can use variable names
+computer[monitor] = 72;
+console.log(computer)
+//Returns {monitor: '64 inch', screen: 72}
+//it has read monitor as a variable (created a few lines above) instead of a string
+
+
