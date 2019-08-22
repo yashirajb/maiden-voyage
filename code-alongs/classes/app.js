@@ -119,7 +119,7 @@ class Person {
 
 }
 
-//invoking the constructor to create new instances, for example, the name input is defined when we invoke the class
+//invoking the constructor to create new instances
 const rashad = new Person("black", "six feet")
 console.log(rashad)
 rashad.personalStatement("my perspective on what caused the Great Depression")
@@ -160,3 +160,67 @@ console.log(Nintendo)
 Muggeldorf.introduce("am feeling nauseous today");
 Nintendo.introduce("think I'm coming down with a cold today");
 
+//went back up to person class and added personalStatemennt method to the object, also added introduce method to the AlienWithMethod class
+
+
+//Where classes get really tricky is where classes inherit other classes
+
+//Let's create the Programmer class, which is a specific subtype of person
+
+class Person2{
+    constructor(name){
+        this.name = name;
+    }
+    introduce(){
+        console.log(`Hi my name is ${this.name}`)
+    }
+}
+//Programmer is a new class that inherits all its functionality from the class it's extending (Person2)
+const maroe = new Person2("maroe")
+
+class Programmer extends Person2 {
+        codeAllNight(){
+            console.log(`Put on another pot of coffee, I'm so close to ${codeAllNight}`)
+        }
+}
+
+const yashira = new Programmer("yashira");
+console.log(yashira)
+//Result: Programmer { name: 'yashira' }
+yashira.introduce();
+//Result: Hi my name is yashira
+// maroe.codeAllNight();
+//return: TypeError: maroe.codeAllNight is not a function ---Why? Maroe is not a new instance, she was never created so she inherits nothing from the Person2 class. Yashira is an instance that is extending from Person 2 
+// yashira.codeAllNight()
+//This concept is known as "inheritance" ----the programmer class is inheriting all its properties from the Person class 
+
+//extend your own person class
+
+class WorldTraveler{
+    constructor(age){
+        this.age = age
+        this.health = "good"
+        this.experience = "none"
+        this.compassion = "high"
+        this.legs = 2
+        this.heart = 1
+       
+        }
+        travelInterest(age){
+            console.log(`Hi Im ${age} new at this world travel thing, but I'm to do this `)
+    }
+
+}
+
+const olivia = new WorldTraveler("seventeen")
+    console.log(olivia)
+
+    class OverexposedTraveler extends WorldTraveler{
+        tooManyCountries(){
+            console.log(`I've been to too many countries and now I'm ${tooManyCountries}`)
+        }
+    }
+    const ethan = new OverexposedTraveler(27)
+    console.log(ethan)
+    // ethan.tooManyCountries("sick of all this")
+  
