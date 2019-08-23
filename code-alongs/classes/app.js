@@ -216,6 +216,9 @@ const olivia = new WorldTraveler("seventeen")
     console.log(olivia)
 
     class OverexposedTraveler extends WorldTraveler{
+        constructor(){
+            super()
+        }
         tooManyCountries(){
             console.log(`I've been to too many countries and now I'm ${tooManyCountries}`)
         }

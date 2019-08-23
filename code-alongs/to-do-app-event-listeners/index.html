@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h4>Tell Us Your Name</h4>
+    <!-- because there are inputs we'll use a form -->
+     <!--give it a class so if there are multiple forms you can grab them all  -->
+    <form class="nameForm">
+        <!--give it a class so if there are multiple forms you can grab them all  -->
+    <input type="text" name="username" id="nameInput">
+    <input type="submit">
+    </form>
+    <div class="listContainer">
+    <h2>Things To Do</h2>
+    <ol class="todolist">
+    </ol>
+    </div>
+<!-- We want Done to sit side by side of the ToDo so use inline block and wrap each ol in a div -->
+    <div class="listContainer">
+    <h2>Done</h2>
+    <ol class="donelist">
+    </ol>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
