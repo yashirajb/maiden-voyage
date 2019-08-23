@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'metropolis';
+    src: url("./metropolis/Metropolis-Regular.otf") format("truetype");
+  }
+  
+  body {
+    font-family: 'metropolis';
+    color: #3b3a36;
+    font-size: 2em;
+  }
+  
+  h1 {
+    font-size: 1em;
+    display: inline-block;
+  }
+  
+  button {
+      font-size: 1em;
+      padding: .2em;
+      color: #40A69A;
+      background-color: #c0dfd9;
+      border: none;
+      outline: none;
+      width: 1.5em;
+      border-radius: 100%;
+      margin-right: .1em;
+      margin-bottom: 1em;
+      margin-left: .75em;
+      margin-top: .5em;
+      box-shadow: 1px 1px 1px  1px #e9ece5;
+  }
+  
+  button:hover {
+    background-color: #e9ece5;
+    color: #fae596;
+  }
+  
+  button:active {
+    background-color: #fae596;
+    color: #40A69A;
+  }
+  
+  .btn-container {
+    width: 90%;
+    margin: auto;
+    display:flex;
+    justify-content: flex-end;
+  }
+  
+  header {
+    display: flex;
+  }
+
+  /*Creates the ability for letters to line up in a horizontal row  */
+  .flex-container {
+    display: flex;
+    background-color: #e9ece5;
+    width: 90%;
+    margin: auto;
+    /* the following solves the problem of breakpoint issues */
+    overflow: scroll;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+
+  }
+
+  .card{
+    color: white;
+    background-color: pink;
+    padding: .5em;
+    margin: .3em .3em;
+    /* Since letters grow to fit their content and no more, it can cause some cards to appear fatter or thinner than others */
+    flex-basis: 1 em;
+    text-align: center;
+  }
