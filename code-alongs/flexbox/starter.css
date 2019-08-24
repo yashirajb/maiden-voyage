@@ -75,3 +75,11 @@
     flex-basis: 1 em;
     text-align: center;
   }
+
+  /* Add a flex-grow value of 2 to our selected cards */
+    .selected {
+    background-color:  #fae596;
+    color: #40A69A;
+    flex-grow: 2;
+    order: -1;
+}
