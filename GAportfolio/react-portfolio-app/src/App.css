@@ -7,7 +7,8 @@
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: rgb(73, 79, 82);
+  background: #2B2F3E;
+  /* rgb(73, 79, 82); */
   color: white;
 }
 
@@ -19,3 +20,66 @@
   list-style: none;
 
 }
+
+.resumeplaceholder{
+  text-align: center;
+ display: inline-block;
+ /* background-color: black; */
+}
+
+.img-circle{
+  border-radius: 50%;
+  /* box-shadow: 10px 10px 5px rgba(155, 72, 34, 0.432); */
+}
+
+.display-1{
+  font-size: 2px;
+}
+
+.aboutparagraph1{
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+
+.aboutparagraph2{
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+
+.email{
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+
+.linkedin{
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+
+.github{
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+
+.medium{
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+
+.resume{
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+
+}
+
+/* .resumebutton{
+  color: white;
+  background-color: black;
+} */
