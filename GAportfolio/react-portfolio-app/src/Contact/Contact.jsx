@@ -7,8 +7,7 @@ import { Jumbotron, Container } from 'reactstrap';
 function Contact() {
     return (
       <div className="App">
-          <br />
-          <br />
+      
           <Jumbotron fluid>
         <Container fluid>
           <h1 className="display-3">Let's Keep In Touch</h1>

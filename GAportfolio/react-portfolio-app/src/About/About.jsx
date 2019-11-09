@@ -13,8 +13,11 @@ function About() {
     <div className="App">
         <Jumbotron fluid>
         <Container fluid>
-          <h1 className="display-2">About Me</h1>
-          <Photo2 />
+          <h1 className="display-3">Yashira Jacobs</h1>
+          <p className="lead">Software Developer | Educator </p>
+
+          <br />
+          <br />
         </Container>
       </Jumbotron>
         {/* <h1>About Me</h1> */}
@@ -22,16 +25,17 @@ function About() {
         <br />
 
         <div>
+        <Photo2 />
             {/* <Photo2 /> */}
             <br />
             <br />
             <Paragraph1 />
             <br />
             <br />
-            <Photo />  
+            {/* <Photo />   */}
             <br />
             <br />
-            <Paragraph2 />
+            {/* <Paragraph2 /> */}
         {/* <MainContent /> */}
         </div>
         <br />

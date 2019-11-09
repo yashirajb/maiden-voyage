@@ -28,8 +28,8 @@ function Homepage() {
             <p className="lead">Nice to see you, please take a look around.</p>
           </Container> */}
         </Jumbotron>
-        <Jumbotron fluid>
-          <Container fluid>
+        <Jumbotron fluid >
+          <Container fluid className="welcomejumbo">
             <h1 className="display-3">Welcome</h1>
             <p className="lead">Nice to see you, please take a look around.</p>
           </Container>

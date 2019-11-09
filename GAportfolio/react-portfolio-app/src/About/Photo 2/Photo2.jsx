@@ -14,7 +14,7 @@ function Photo2() {
      {/* <a href="https://imgur.com/IN468BW"><img src="https://i.imgur.com/IN468BW.jpg?1" title="source: imgur.com" /></a> */}
 
      <div>
-     <img src="https://i.imgur.com/ylZp5QOt.jpg" class="img-circle" alt="personal_pic" width="200" height="200" />  
+     <img src="https://i.imgur.com/ylZp5QOt.jpg" class="img-circle" alt="personal_pic" width="225" height="225" />  
       {/* <Card> <a href="https://imgur.com/ylZp5QO"><img src="https://i.imgur.com/ylZp5QOt.jpg" title="source: imgur.com" /></a>
         <CardImg top width="30%" src="https://i.imgur.com/ylZp5QOt.jpg" alt="Card image cap" />
         {/* <CardBody>   

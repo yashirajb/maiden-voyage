@@ -10,11 +10,11 @@ function ResumePlaceHolder() {
      
      <Row>
 
-     <Col sm="200">
+     <Col sm="50">
         <Card body className="resume">
           {/* <CardTitle>My Resume</CardTitle> */}
           <br />
-          <CardText>Click below to view:</CardText>
+          {/* <CardText>Click below to view:</CardText> */}
          
         
           {/* <Button variant="secondary"> <a href="https://docs.google.com/document/d/1rvWvkS7De7f_hSjvhVlltJyNh6rOYfp0el3Zyn405w8/edit?usp=sharing">Resume</a></Button> */}

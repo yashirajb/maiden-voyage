@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 
 .nav{
@@ -83,3 +84,7 @@
   color: white;
   background-color: black;
 } */
+
+.welcomejumbo{
+  color: black;
+}
