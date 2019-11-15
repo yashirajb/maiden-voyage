@@ -14,7 +14,9 @@ function About() {
         <Jumbotron fluid>
         <Container fluid>
           <h1 className="display-3">Yashira Jacobs</h1>
+          <div className="fontchange">
           <p className="lead">Software Developer | Educator </p>
+          </div>
 
           <br />
           <br />
@@ -27,6 +29,8 @@ function About() {
         <div>
         <Photo2 />
             {/* <Photo2 /> */}
+            <br />
+            <br />
             <br />
             <br />
             <Paragraph1 />

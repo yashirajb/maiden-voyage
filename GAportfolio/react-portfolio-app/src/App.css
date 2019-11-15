@@ -11,6 +11,13 @@
   background: #2B2F3E;
   /* rgb(73, 79, 82); */
   color: white;
+  font-size: 25px;
+}
+
+.YJ{
+  font-weight: 800;
+  /* color: aqua; */
+  color: #3181B2;
 }
 
 .navlinks{
@@ -28,8 +35,10 @@
  /* background-color: black; */
 }
 
+
 .img-circle{
   border-radius: 50%;
+  border: 10px solid orange;
   /* box-shadow: 10px 10px 5px rgba(155, 72, 34, 0.432); */
 }
 
@@ -38,7 +47,7 @@
 }
 
 .aboutparagraph1{
-  font-size: 20px;
+  font-size: 40px;
   color: black;
   font-weight: 300;
 }
@@ -51,31 +60,43 @@
 
 .email{
   font-size: 20px;
-  color: black;
+  color: #3181B2;
   font-weight: 400;
+ 
 }
+/* .gmailImage{
+  width: 80px;
+  height: 80px;
+} */
 
 .linkedin{
   font-size: 20px;
-  color: black;
+  color: #3181B2;
   font-weight: 400;
 }
 
 .github{
   font-size: 20px;
-  color: black;
+  color: #3181B2;
   font-weight: 400;
 }
 
 .medium{
   font-size: 20px;
-  color: black;
+  color: #3181B2;
   font-weight: 400;
 }
 
+/* .mediumImage{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+
+} */
+
 .resume{
   font-size: 25px;
-  color: black;
+  color:red;
   font-weight: 400;
 
 }
@@ -87,4 +108,66 @@
 
 .welcomejumbo{
   color: black;
+}
+
+.ChicagoImage{
+  border-radius: 50%;
+}
+
+.AppTitle{
+  color: #3181B2;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  /* margin-bottom: inherit;
+  margin-top: inherit; */
+}
+
+.AppBody{
+  color: #3181B2;
+  font-size: 25px;
+  padding: 50px;
+  margin: auto;
+
+
+}
+
+.AppBody{
+  /* justify-content: center;
+  margin: 10px 60px 10px 60px; */
+}
+
+.AppButton{
+  font-size: 100px;
+  color: red;
+}
+
+.copyright{
+  /* color: aqua; */
+  color: #3181B2;
+  text-align: center;
+}
+
+.lead{
+  color: black;
+  font-size: 1000rem;
+  
+}
+
+.display-3{
+ color: #3181B2;
+}
+
+.fontchange{
+  font-size: 100em;
+}
+
+.linkedInImage{
+  justify-content: left;
+}
+.emailImage{
+  justify-content: left;
+}
+.mediumImage{
+  align-items: center;
 }

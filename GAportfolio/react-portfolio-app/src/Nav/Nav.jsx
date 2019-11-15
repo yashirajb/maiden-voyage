@@ -12,12 +12,16 @@ function Nav() {
   return (
     <div className="App">
         <nav className="nav">
-            <h2>YJ</h2>
+            {/* <h2>YJ */}
+            <Link style={navStyle} to='/'>
+            <li className="YJ">YJ</li>
+            </Link>
+            {/* </h2> */}
             <ul className="navlinks">
             {/* <h2>YB</h2> */}
-            <Link style={navStyle} to='/'>
+            {/* <Link style={navStyle} to='/'>
             <li>Home</li>
-            </Link>
+            </Link> */}
            <Link style={navStyle} to='/about'>
             <li>About</li>
             </Link>

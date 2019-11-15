@@ -15,7 +15,7 @@ function Photo() {
 
      <div>
       <Card>
-        <CardImg top width="50%" src="https://i.imgur.com/swrX0KP.jpg" alt="Card image cap" />
+        <CardImg top width="50%" src="https://i.imgur.com/MBrgx6R.png?1" alt="Card image cap" />
         {/* <CardBody> 
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
